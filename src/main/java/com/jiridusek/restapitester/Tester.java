@@ -142,7 +142,7 @@ class Tester {
      * @param url String URL
      * @param body String Payload
      * @param httpInterface HttpInterface An implementation of HttpInterface used for this test case
-     * @return String Server's response
+     * @return String String representation of server's response
      * @throws IOException Throws IOException
      */
     private String testCase(String testName, String method, String url,
